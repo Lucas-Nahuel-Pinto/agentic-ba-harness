@@ -7,14 +7,13 @@ Atlassian CLI.
 ## What's inside
 
 ```
-.claude/skills/
+.opencode/skills/
   ba-story-authoring/        User stories + Gherkin AC, INVEST check, moSCoW scope
   ba-process-mapping/        As-is / to-be process maps (mermaid) + handoff + gap analysis
   acli/                      Atlassian CLI skill (Jira Cloud)
   git-flow-master/           Git operator skill
   caveman/                   Terse voice skill (vendored from github.com/JuliusBrussee/caveman, Apache-2.0)
 opencode.jsonc               OpenCode MCP config (engram + tavily)
-.mcp.json                    Claude Code MCP config (engram + tavily)
 .env.example                 Credential template
 AGENTS.md                    Agent operating rules
 reports/                     Saved artifacts (process maps, story drafts) — only on request
@@ -53,5 +52,5 @@ reports/                     Saved artifacts (process maps, story drafts) — on
 ## Upstream attribution
 
 - `caveman` skill — © 2026 Julius Brussee, Apache-2.0. See
-  `.claude/skills/caveman/LICENSE-APACHE-2.0` and `NOTICE` in this directory.
+  `.opencode/skills/caveman/LICENSE-APACHE-2.0` and `NOTICE` in this directory.
 - `acli`, `git-flow-master` — copied from the project QA boilerplate.
