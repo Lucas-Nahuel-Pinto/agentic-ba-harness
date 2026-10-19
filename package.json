@@ -1,0 +1,8 @@
+{
+  "name": "agentic-ba-harness",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent console for Business Analyst workflows: user stories with AC, process mapping, Jira via acli",
+  "license": "MIT"
+}
